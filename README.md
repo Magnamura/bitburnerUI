@@ -15,6 +15,8 @@ import { UI } from "ui-lib.js";
 
 Hier ist ein einfaches Beispiel, wie du ein Fenster mit einer Tabelle und einem Balken erstellst:
 
+![Vorschau der UI](./demo.png)
+
 ```javascript
 import { UI } from "ui-lib.js";
 /** @param {NS} ns **/
