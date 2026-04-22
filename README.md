@@ -22,7 +22,7 @@ import { UI } from "ui-lib.js";
 /** @param {NS} ns **/
 export async function main(ns) {
     ns.disableLog("ALL");
-    ns.tail();
+    ns.ui.openTail();
 
     // 1. Fenster anlegen (Breite: 60)
     const win = new UI.Window("SERVER MONITOR v1.0", 60);
